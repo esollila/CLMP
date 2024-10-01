@@ -15,13 +15,13 @@ This repository consists of following MATLAB scripts:
 * `activityDetectionPE.m` uses MC-simulatiosn to compute the exact recovery (ER) rate, missdetection (MD) rate and computation times of CL-MP and Coordinatewise optimization method for given N,M,L,K, assuming Bernoulli pilots, and active devive powers uniformly distributed on SNRlow and SNRhigh in dB
 * `ActivityDetection_Per_vs_M` setting where number of antennas (M) varies: reproduces the Figure 2, and Figure 3 (top panel) in [1]
 * `ActicityDetection_Per_vs_L` setting where pilot length (L) varies: reproduces the Figure 4, and Figure 3 (bottom panel) in [1]
-* `ML_coord_descent_round.m` this code for CWO method is not provided but you can download it from the original authors  ["github page"](https://github.com/AlexFengler/mmv-activity-and-random-access). Please see folder 'private' on that page. 
+* `ML_coord_descent_round.m` this code for CWO method is not provided but you can download it from the original authors  ["github page"](https://github.com/AlexFengler/mmv-activity-and-random-access). Please see folder `private` on that page. 
 
 
 ![Figure 2](fig2.png)
 
 ## Requirements
-The code should be able to run in a basic matlab.
+The code should be able to run in a basic MATLAB.
 
 ## Authors
 Esa Ollila and Leatile Marata
