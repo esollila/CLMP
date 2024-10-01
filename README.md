@@ -1,7 +1,7 @@
 # CL-MP: covariance learning matching pursuit activity detection for massive random access
 This repository includes the source code used in our recent paper:
 
-[1] Marata, Leatile, Esa Ollila, and Hirley Alves, ["Activity Detection for Massive Random Access using Covariance-based  Matching Pursuit"](https://arxiv.org/abs/2306.02271), arXiv preprint arXiv:2405.02741 (2024).
+[1] Marata, Leatile, Esa Ollila, and Hirley Alves, ["Activity Detection for Massive Random Access using Covariance-based  Matching Pursuit"](https://arxiv.org/abs/2405.02741), arXiv preprint arXiv:2405.02741 (2024).
 
 If you use the codes, then please cite the reference above!
 
@@ -15,7 +15,7 @@ This repository consists of following MATLAB scripts:
 * `activityDetectionPE.m` uses MC-simulatiosn to compute the exact recovery (ER) rate, missdetection (MD) rate and computation times of CL-MP and Coordinatewise optimization method for given N,M,L,K, assuming Bernoulli pilots, and active devive powers uniformly distributed on SNRlow and SNRhigh in dB
 * `ActivityDetection_Per_vs_M` setting where number of antennas (M) varies: reproduces the Figure 2, and Figure 3 (top panel) in [1]
 * `ActicityDetection_Per_vs_L` setting where pilot length (L) varies: reproduces the Figure 4, and Figure 3 (bottom panel) in [1]
-* `ML_coord_descent_round.m` this code for CWO method is not provided but you can down load it from  original authors  ["github page"](https://github.com/AlexFengler/mmv-activity-and-random-access) from the folder /private
+* `ML_coord_descent_round.m` this code for CWO method is not provided but you can download it from the original authors  ["github page"](https://github.com/AlexFengler/mmv-activity-and-random-access). Please see folder 'private' on that page. 
 
 
 ![Figure 2](fig2.png)
